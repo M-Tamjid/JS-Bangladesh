@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* header-start */
+/* contact-start */
+header {
+  position: fixed;
+  width: 100%;
+}
+.contact {
+  background: #16163f;
+}
+.phone-number {
+  color: #fff;
+  font-weight: 700;
+}
+i {
+  color: #fff;
+  font-size: 18px;
+}
+i:hover{
+  color: #f4b529;
+  transition: all 0.5s ease-in;
+  transform: rotate(-360deg);
+}
+.number, .email {
+  display: flex;
+  gap: 1em;
+}
+.col-contact {
+  display: flex;
+  gap: 6em;
+}
+.col-6.col-social {
+  display: flex;
+  gap: 1em;
+}
+.sm {
+  display: flex;
+  gap: 1em;
+}
+.col-6.col-social {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-end;
+}
+.container.contact-container {
+  padding: 1em 0;
+}
+/* contact-end */
+/* nav-bar-start */
+img.logo {
+  width: 42%;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  width: 48%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #16163f;
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f4b529;
+  transition:all 0.5s ease-in;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #f4b529;
+}
+a.navbar-brand {
+  width: 45%;
+}
+.logo-icon{
+  display: none;
+}
+i.fa-solid.fa-cart-shopping {
+  color: #16163f;
+  font-size: 32px;
+  padding: 0px 0px 0 18px;
+}
+.nav-bar {
+  background: #fff;
+}
+/* nav-bar-end */
+/* header-end */
+/* margin-start */
+
+.margin {
+  width: 100%;
+  padding: 4em 0;
+  margin-bottom: 1px;
+}
+/* margin-end */
+/* main-start */
+/* themecamp-start */
+.bg-theme{
+  background-color: transparent;
+  background-image: linear-gradient(100deg, #252468 0%, #f2295b 100%);
+}
+.themecamp{
+  background-image: url(https://jsbangladesh.com/wp-content/uploads/2021/05/agency-banner-bg-dots-1.png);
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+img.wp-img {
+  width: 100%;
+}
+.row.row-themecamp {
+  padding: 14em 4em 9.25em 4em;
+  display: flex;
+  align-items: center;
+}
+h1.title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: -1.6px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+p.para-themecamp {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+  margin: 10px 0;
+}
+a.enroll {
+  padding: 22px 45px 22px 45px;
+  background-color: #fac400;
+  border-radius: 30px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+a.enroll:hover{
+  background: #252468;
+  color: #fff;
+}
+.btn-enroll {
+  padding: 3em 0;
+}
+.img-wp {
+  padding-bottom: 5em;
+}
+.style-icon {
+  display: flex;
+  justify-content: space-between;
+}
+/* themecamp-end */
+/* courses-start */
+
+h2.title {
+  font-weight: 600;
+  text-align: center;
+  margin: 60px 0 30px 0;
+}
+img.courses-themecamp {
+  width: 100%;
+}
+.row.row-courses {
+  padding: 0 4em;
+}
+p.course-tag {
+  color: #7A7A7A;
+  font-weight: 400;
+  margin: 5px 0 10px 0;
+  text-align: center;
+}
+img.course-youtube {
+  width: 100%;
+}
+/* courses-end */
+/* FOUNDER-start */
+
+svg.bi.bi-dash-lg {
+  width: 55px;
+  background: yellow;
+  height: 3px;
+  margin-bottom: 13px;
+}
+.title-c {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+h3.title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 0px 15px 0px;
+  color: #110729;
+}
+.row.row-founder {
+  padding: 7em 4em;
+}
+h2.fn-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #110729;
+    margin: 30px 0;
+}
+p.founder-para {
+  color: #110729;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 0 23px 52px 0;
+}
+p.course-tag {
+  font-weight: 400;
+  font-style: italic;
+}
+/* FOUNDER-end */
+/* slider-start */
+
+.bx-wrapper img {
+  width: 4%;
+  display: inline !important;
+  border-radius: 55px !important;
+}
+.bx-viewport {
+  height: auto;
+}
+.review-slider {
+  display: flex;
+}
+span.name-r {
+  display: block;
+}
+.review-slider {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 0 1em 1em;
+  border-bottom: 3px solid #f1f4f7;
+}
+p.comment {
+  text-align: justify;
+  padding: 10px 25px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height:27px;
+}
+.bx-wrapper .bx-controls-direction a{
+  display: none;
+}
+.bx-viewport {
+  height: auto !important;
+}
+/* slider-end */
+/* information-start */
+section.information {
+  background-image: url(./img/bg-2.webp);
+  background-position: bottom center;
+  padding: 5em 0;
+}
+.count-number {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+  color: #110729;
+}
+h2.title-information {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  color: #110729;
+}
+span.super {
+  font-size: 34px;
+  color: #fac400;
+  padding: 0px 8px;
+}
+h3.title-c {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fac400;
+}
+.col-lg-3.col-md-4.col-sm-4.col-12.\32 rd-sl {
+  text-align: center;
+}
+h3.title-c.\33 rd-title {
+  margin: 0px 38%;
+}
+h2.title-information {
+  text-align: center;
+}
+/* information-end */
+/* main-end */
+/* footer-start */
+.help {
+  padding: 1.4em 0;
+  background: #f2ad22;
+  text-align: center;
+  color: #fff;
+}
+.footer-head{
+  font-size: 18px;
+  font-weight: 600;
+  color: #F3AE22;
+  text-align: center;
+}
+.jsb-info{
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #fff;
+}
+footer{
+  background-color: #252468;
+}
+.payment{
+  width: 100%;
+}
+.link-footer-n{
+  display: block;
+  text-align: center;
+  color: #ffff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.link-footer-n:hover{
+  color: #F3AE22;
+}
+.row.footer-row {
+  padding: 5em 15em;
+}
+p.last-text {
+  color: #D4D4D4;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 1em;
+  margin: 0;
+}
+svg.bi.bi-dash-lg.last-dash {
+  background: #D4D4D4;
+  height: 1px;
+  width: 100%;
+}
+/* footer-end */
